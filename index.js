@@ -59,7 +59,7 @@ const submitForm = (event) => {
 
     localStorage.setItem('formSubmissionsList', JSON.stringify(forms));
 
-    window.location.href="../htmlCode/posts.html"
+    window.location.href="posts.html"
     
 }
 //console.log(forms)
