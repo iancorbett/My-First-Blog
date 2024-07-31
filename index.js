@@ -44,7 +44,7 @@ if (localStorage.getItem('formSubmissionslist') === null) {
     localStorage.setItem('blogPost3', JSON.stringify(blogPost3));
 }*/
 
-
+let forms = JSON.parse(localStorage.getItem('formSubmissionsList')) || [];
 
 const submitForm = (event) => {
     event.preventDefault();
